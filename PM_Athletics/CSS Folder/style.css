@@ -1,0 +1,151 @@
+/* Home Page */
+/* **************************Hero section */
+.hero-section {
+  /* height: 900px; */
+  /* max-width: 140rem; */
+  margin: 0 auto;
+}
+
+.hero-img {
+  width: 100%;
+  background-color: brown;
+  height: 90rem;
+  display: block;
+}
+
+/* **************************Events section */
+.events-section::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 900px;
+  background-color: #9907077f;
+  z-index: -1;
+}
+.events-section {
+  background-image: url(/images/crowd_img.jpeg);
+  position: relative;
+  display: block;
+  z-index: 0;
+
+  /* background-size: cover; */
+}
+
+.events-box {
+  max-width: 130rem;
+  height: 90rem;
+  margin: 0 auto;
+  padding: 3.6rem 4.8rem;
+  border-radius: 8px;
+  background-color: #d6d6d6;
+}
+
+.events-text {
+  font-size: 3rem;
+  padding: 1.6rem 3.2rem;
+  text-align: center;
+  color: #fff;
+  background-color: #990707;
+  border-radius: 8px;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.05);
+  margin-bottom: 8.4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main-events-div {
+  max-width: 100%;
+  height: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.events {
+  width: 100%;
+  height: 14rem;
+  background-color: #fff;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+  row-gap: 1rem;
+}
+
+.sport,
+.time,
+.date,
+.location {
+  font-weight: 500;
+  color: #110101;
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.sport {
+  font-size: 2.4rem;
+  border-radius: 8px;
+  background-color: #990707;
+  padding: 0.4rem 0.8rem;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.05);
+}
+
+.location {
+  grid-column: 1/2;
+}
+
+.time {
+  grid-row: 3/4;
+  /* grid-column: ; */
+}
+
+.teams {
+  grid-row: 1/-1;
+  grid-column: 2/3;
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: #440303;
+  align-self: center;
+  justify-self: center;
+}
+
+/* **************************Gallery section */
+.gallery-section {
+  margin-top: 9.6rem;
+}
+
+.gallery-text {
+  font-size: 5.2rem;
+  padding-left: 9.6rem;
+  color: #110101;
+  letter-spacing: 1px;
+}
+
+.gallery-box {
+  /* background-color: #110101; */
+  width: 100%;
+  height: 30rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  /* padding: 2.4rem; */
+}
+
+.gallery-img-box {
+  width: 30rem;
+  height: 25rem;
+  /* flex: 1; */
+  background-color: #d6d6d6;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.05);
+}
+
+/* **************************Footer */
