@@ -17,7 +17,6 @@ html {
   /* Rem conversion. Set font-size to 62.5% */
   font-size: 62.5%;
   scroll-behavior: smooth;
-  
 }
 
 body {
@@ -25,14 +24,9 @@ body {
   color: #555;
   line-height: 1;
   font-weight: 400;
-  scroll-behavior: smooth;
 }
 
 /* ********************** Header */
-
-:target {
-  scroll-margin-top: 80px; /* Adjust based on your header height */
-}
 .main-header {
   position: sticky;
   top: 0;
