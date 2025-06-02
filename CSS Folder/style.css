@@ -10,20 +10,14 @@
   width: 100%;
   position: relative; /* Add this to position the overlay correctly */
   display: block;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
-
-.hero-image {
-  width: 100%;
-  height: auto; /* Adjust based on your image's aspect ratio or height */
-}
-
 .img-overlay {
   position: absolute; /* Position the overlay on top of the image */
   top: 0; /* Start the overlay from the top of the parent */
   left: 0; /* Align it to the left */
   width: 100%;
-  height: 148rem;
+  height: 147rem;
   background-color: rgba(
     17,
     1,
@@ -32,6 +26,7 @@
   ); /* Transparent dark background for the overlay */
   z-index: 999;
 }
+
 /* **************************Events section */
 .events-section::before {
   content: "";
@@ -139,6 +134,7 @@
 /* **************************Gallery section */
 .gallery-section {
   margin-top: 9.6rem;
+  padding: 1.6rem 3.2rem;
 }
 
 .gallery-text {
@@ -155,16 +151,29 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2.4rem;
+
   /* padding: 2.4rem; */
 }
 
 .gallery-img-box {
-  width: 30rem;
-  height: 25rem;
+  width: 35rem;
+  /* height: auto; */
   /* flex: 1; */
-  background-color: #d6d6d6;
+  /* background-color: #d6d6d6; */
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  /* overflow: hidden; */
+  transition: all 0.4s;
+  border-radius: 12px;
+}
+
+.gallery-img:hover {
+  transform: scale(1.1);
 }
 
 /* **************************Footer */

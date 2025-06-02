@@ -49,6 +49,11 @@
   box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.211);
 }
 
+.roster-img {
+  width: 100%;
+  height: auto;
+}
+
 .roster-sport {
   font-size: 2.8rem;
   color: #fff;
