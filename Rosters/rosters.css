@@ -41,6 +41,7 @@
   flex-direction: row;
   align-items: end;
   justify-content: center;
+  overflow: hidden;
 }
 
 .roster-div:hover,
@@ -52,6 +53,11 @@
 .roster-img {
   width: 100%;
   height: auto;
+  transform: all 0.4s;
+}
+
+.roster-img:hover {
+  transform: scale(1.1);
 }
 
 .roster-sport {
