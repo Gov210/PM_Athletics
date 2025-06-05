@@ -42,18 +42,28 @@
   align-items: end;
   justify-content: center;
   overflow: hidden;
+  transition: all 0.4s;
 }
 
 .roster-div:hover,
 .roster-div:active {
   background-color: #c72424;
   box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.211);
+  border-radius: 16px;
+}
+
+.roster-div a:link,
+a:visited {
+  overflow: hidden;
+  display: block;
+  border-radius: 16px;
 }
 
 .roster-img {
   width: 100%;
   height: auto;
-  transform: all 0.4s;
+  transition: all 0.4s;
+  height: 30rem;
 }
 
 .roster-img:hover {

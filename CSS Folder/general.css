@@ -55,12 +55,12 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 84px;
+  height: 8.4rem;
   letter-spacing: 2px;
 }
 
 .main-text {
-  font-size: 48px;
+  font-size: 4.8rem;
   color: #b32121;
   justify-self: end;
   padding-right: 150px;
@@ -73,7 +73,7 @@ a:visited,
 .footer-nav a:link,
 a:visited {
   color: #fff;
-  font-size: 20px;
+  font-size: 2rem;
   text-decoration: none;
 }
 
