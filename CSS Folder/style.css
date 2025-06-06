@@ -1,72 +1,52 @@
 /* **************************Hero section */
 .hero-section {
-  /* height: 900px; */
-  /* max-width: 140rem; */
   margin: 0 auto;
+  position: relative; /* Needed for absolutely positioned children */
 }
 
 .hero-img {
   width: 100%;
-  position: relative; /* Add this to position the overlay correctly */
   display: block;
-  opacity: 0; /* Start with the image invisible */
-  animation: fadeInImage 2s ease-out forwards; /* Apply fade-in animation */
+  /* Removed animation and opacity here */
 }
 
+/* Overlay - no animation */
 .img-overlay {
-  position: absolute; /* Position the overlay on top of the image */
-  top: 0; /* Start the overlay from the top of the parent */
-  left: 0; /* Align it to the left */
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 147rem;
-  background-color: rgba(
-    17,
-    1,
-    1,
-    0.375
-  ); /* Transparent dark background for the overlay */
+  height: 100%;
+  background-color: rgba(17, 1, 1, 0.375);
   z-index: 998;
 }
 
-.hero-img {
-  position: relative;
-  transition: all ease-in 0.4s;
-}
-
+/* Text - only this has animation now */
 .img-text {
   text-align: center;
   position: absolute;
-  top: 60rem;
-  left: 38rem;
+  top: 50%;
+  left: 50%;
   color: #fff;
-  font-size: 12.8rem;
+  font-size: 13.8rem;
   letter-spacing: 3px;
   z-index: 999;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.114);
-  transform: translateY(200%);
+  transform: translate(-50%, -50%) translateY(200%);
   opacity: 0;
-  animation: fadeInUpText 1.2s ease-out forwards; /* Apply animation */
+  animation: fadeInUpText 1.2s ease-out forwards;
 }
 
-/* **************************Keyframes for the fade-in animation for the image */
-@keyframes fadeInImage {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-/* Keyframes for the fade-in and slide-up animation for the text */
+/* Removed fadeInImage keyframes (optional cleanup) */
+/* Keep only fadeInUpText since it's the only one used */
 @keyframes fadeInUpText {
   0% {
     opacity: 0;
-    transform: translateY(100%);
+    transform: translate(-50%, -30%);
   }
   100% {
     opacity: 1;
-    transform: translateY(0);
+    transform: translate(-50%, -50%);
   }
 }
 
@@ -191,9 +171,10 @@
   /* background-color: #110101; */
   width: 100%;
   height: 30rem;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  gap: 1%;
 
   /* padding: 2.4rem; */
 }
