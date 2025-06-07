@@ -1,0 +1,63 @@
+.container-contr {
+  padding: 9.6rem 12.8rem;
+}
+
+.main-creator {
+  /* background-color: #efeeee; */
+  display: grid;
+  width: 140rem;
+  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  padding: 1.6rem 3.2rem;
+  justify-items: center;
+  border-radius: 16px;
+  row-gap: 1rem;
+}
+
+.club-img {
+  width: 75%;
+  grid-column: 2/3;
+  border-radius: 16px;
+}
+
+.heading-by {
+  font-size: 3.6rem;
+  color: #110101;
+}
+
+.founder,
+.co-founders,
+.members {
+  font-size: 2.4rem;
+  list-style: none;
+  grid-column: 1/2;
+  text-align: start;
+  color: #110101;
+}
+
+.side-contributions {
+  text-align: center;
+  font-size: 2.4rem;
+  color: #110101;
+  margin-top: 3.2rem;
+}
+
+.founder {
+  margin-top: 1rem;
+}
+
+.co-founders {
+  margin: 1.8rem 0 1.8rem 0;
+}
+
+.members li {
+  margin-bottom: 1.2rem;
+  font-size: 1.8rem;
+  margin-left: 1.8rem;
+}
+
+.members li:first-child,
+.co-founders {
+  font-size: 2rem;
+  /* margin-left: 0; */
+}
