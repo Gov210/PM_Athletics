@@ -28,8 +28,11 @@
 .main-img,
 .sport-img {
   background-color: #bfbfbe;
-  height: 25rem;
+  height: 35rem;
   width: 100%;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0, 0, 0, 0.104);
+  border-radius: 16px;
+  /* transition: all 0.4s; */
 }
 
 .main-about-div {
