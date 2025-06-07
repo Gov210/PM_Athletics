@@ -180,7 +180,8 @@ a:active {
 .fax,
 .email,
 .app,
-.coaches {
+.coaches,
+.contributions {
   font-size: 1.8rem;
 }
 
@@ -188,7 +189,8 @@ a:active {
 .fax:link,
 .email:link,
 .coaches:link,
-.app:link {
+.app:link,
+.contributions:link {
   color: #fff;
   text-decoration: none;
   /* transition: all 0.3s; */
@@ -198,7 +200,8 @@ a:active {
 .fax:hover,
 .email:hover,
 .coaches:hover,
-.app:hover {
+.app:hover,
+.contributions:hover {
   /* color: #d7d6d6; */
   text-decoration: underline #b32121 3px;
   text-underline-offset: 8px;
