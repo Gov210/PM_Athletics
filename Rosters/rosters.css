@@ -87,7 +87,14 @@ a:visited {
 
 .coach-text {
   padding: 0.8rem 1.6rem;
-  text-justify: center;
+  background-color: #f7f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.114);
+  grid-column: 1/-1;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 3.6rem;
+  color: #aa0808;
+  font-weight: 600;
 }
 
 .players-list,
@@ -97,17 +104,42 @@ a:visited {
 
 .players-div {
   padding: 1.6rem 3.2rem;
+  background-color: #f7f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.114);
+  grid-column: 1/5;
   /* margin-left: 15rem; */
 }
 .player-text,
 .grade-text {
   font-size: 2.4rem;
-  color: #aa0808;
+  color: #c72424;
   text-align: center;
   margin-bottom: 1.2rem;
 }
 
+.heading-players,
+.heading-grades {
+  font-size: 2.2rem;
+  color: #110101;
+  text-align: center;
+  margin-bottom: 2.4rem;
+  font-weight: 600;
+}
+
 .grade-div {
   padding: 1.6rem 3.2rem;
-  /* width: 30rem; */
+  background-color: #f7f4f4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.114);
+  height: auto;
+  width: auto;
+}
+
+.roster-container {
+  max-width: 100rem;
+  padding: 4.8rem 9.6rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+  /* color: #110101; */
 }

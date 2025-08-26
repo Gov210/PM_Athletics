@@ -33,6 +33,7 @@
   grid-column: 1/2;
   text-align: start;
   color: #110101;
+  font-weight: 500;
 }
 
 .side-contributions {
@@ -43,7 +44,7 @@
 }
 
 .founder {
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 .co-founders {
@@ -53,7 +54,7 @@
 .members li {
   margin-bottom: 1.2rem;
   font-size: 1.8rem;
-  margin-left: 1.8rem;
+  /* margin-left: 1.8rem; */
 }
 
 .members li:first-child,
