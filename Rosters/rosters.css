@@ -112,7 +112,7 @@ a:visited {
 .player-text,
 .grade-text {
   font-size: 2.4rem;
-  color: #c72424;
+  color: #000000;
   text-align: center;
   margin-bottom: 1.2rem;
 }
@@ -120,7 +120,7 @@ a:visited {
 .heading-players,
 .heading-grades {
   font-size: 2.2rem;
-  color: #110101;
+  color: #aa0808;
   text-align: center;
   margin-bottom: 2.4rem;
   font-weight: 600;
