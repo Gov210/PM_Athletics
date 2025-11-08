@@ -5,3 +5,6 @@
 /* .rd-5 {
   grid-column: 3/4;
 } */
+.roster-grid a {
+  height: 25rem;
+}

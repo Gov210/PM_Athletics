@@ -2,3 +2,6 @@
   display: flex;
   justify-content: center;
 }
+.roster-grid a {
+  height: 25rem;
+}

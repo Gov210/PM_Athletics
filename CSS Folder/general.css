@@ -24,6 +24,7 @@ body {
   color: #555;
   line-height: 1;
   font-weight: 400;
+  overflow-x: hidden;
 }
 
 /* ********************** Header */
@@ -33,16 +34,14 @@ body {
   background-color: white; /* or your site background */
   z-index: 1000;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional shadow for visibility */
-}
-.main-header {
   display: grid;
   grid-template-columns: 20rem 1fr;
   align-items: end;
 }
 
 .logo {
-  width: 20rem;
   background-color: #000;
+  width: 20rem;
   /* border-right: solid 5px #b32121; */
 }
 
@@ -51,12 +50,12 @@ body {
 }
 
 .main-nav {
-  background-color: #000;
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 8.4rem;
   letter-spacing: 2px;
+  background-color: #000;
 }
 
 .main-text {
@@ -83,6 +82,38 @@ a:active,
 a:active {
   text-decoration: underline #b32121 3px;
   text-underline-offset: 8px;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: none;
+  /* grid-row: 1/2; */
+  align-self: end;
+}
+
+.icon-mobile-nav {
+  height: 8rem;
+  width: 8rem;
+  color: #b32121;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.121);
+}
+
+/* <ion-icon
+            class="icon-mobile-nav md hydrated"
+            name="menu-outline"
+            role="img"
+            aria-label="menu outline"
+          ></ion-icon>
+          <ion-icon
+            class="icon-mobile-nav md hydrated"
+            name="close-outline"
+            role="img"
+            aria-label="close outline"
+          ></ion-icon> */
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /* Footer */

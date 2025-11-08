@@ -1,10 +1,12 @@
 /* Gallery */
 .gallery-section {
   padding: 9.6rem 12.8rem;
+  margin: 0 auto;
 }
 
 .gallery-container {
-  width: 100rem;
+  width: 100%;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -14,11 +16,11 @@
 
 .gallery-div {
   overflow: hidden;
-  width: 40rem;
+  /* width: 100%; */
 }
 
 .gallery-img {
-  width: 40rem;
+  width: 100%;
   transition: all 0.4s;
 }
 
@@ -27,8 +29,10 @@
 }
 
 .gallery-container-extra {
+  /* margin-top: 2%; */
+  width: 100%;
+  margin: 0 auto;
   margin-top: 2rem;
-  width: 100rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);

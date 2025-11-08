@@ -1,6 +1,8 @@
 /* Calendar */
 .calendar-section {
   padding: 9.6rem 12.8rem;
+  display: flex;
+  align-items: center;
 }
 
 .calendar-container {
@@ -10,4 +12,10 @@
 
 .calendar {
   font-size: 10rem;
+  width: 100%;
+  height: 70rem;
+}
+
+nav a[href="/News&Updates/news.html"] {
+  display: none;
 }

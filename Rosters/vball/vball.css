@@ -2,6 +2,10 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
+.roster-grid a {
+  height: 25rem;
+}
 /* .rd-5 {
   grid-column: 3/4;
 } */

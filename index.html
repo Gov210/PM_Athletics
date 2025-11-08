@@ -12,6 +12,7 @@
     <title>PM Athletics</title>
     <link rel="stylesheet" href="/CSS Folder/style.css" />
     <link rel="stylesheet" href="/CSS Folder/general.css" />
+    <link rel="stylesheet" href="/CSS Folder/queries.css" />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -49,6 +50,20 @@
             <a href="/Rosters/rosters.html">Rosters</a>
           </nav>
         </div>
+        <button class="btn-mobile-nav">
+          <ion-icon
+            class="icon-mobile-nav md hydrated"
+            name="menu-outline"
+            role="img"
+            aria-label="menu outline"
+          ></ion-icon>
+          <ion-icon
+            class="icon-mobile-nav md hydrated"
+            name="close-outline"
+            role="img"
+            aria-label="close outline"
+          ></ion-icon>
+        </button>
       </header>
       <section class="hero-section">
         <img class="hero-img" src="images/IMG_1208-new.webp" />
@@ -58,8 +73,8 @@
       <section class="events-section">
         <div class="events-box">
           <h2 class="events-text">Upcoming Events</h2>
-          <!-- <p class="no-events">No events</p> -->
-          <div class="main-events-div">
+          <p class="no-events">No events</p>
+          <!-- <div class="main-events-div">
             <div class="events">
               <p class="sport">Jr. Boys Volleyball</p>
               <p class="date">Tue, Nov 4</p>
@@ -74,7 +89,7 @@
               <p class="location">Queen Elizabeth Secondary</p>
               <p class="teams">PM vs QE</p>
             </div>
-          </div>
+          </div> -->
         </div>
       </section>
 
@@ -206,5 +221,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="/script.js"></script>
   </body>
 </html>
