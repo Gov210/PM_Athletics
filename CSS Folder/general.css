@@ -17,6 +17,8 @@ html {
   /* Rem conversion. Set font-size to 62.5% */
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 body {
@@ -25,6 +27,8 @@ body {
   line-height: 1;
   font-weight: 400;
   overflow-x: hidden;
+  position: relative;
+  width: 100%;
 }
 
 /* ********************** Header */
@@ -84,13 +88,26 @@ a:active {
   text-underline-offset: 8px;
 }
 
+nav a:link,
+nav a:visited,
+nav a:hover,
+nav a:active {
+  /* color: inherit; */
+  text-decoration: underline;
+  text-decoration-color: #b32121 !important;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+  -webkit-text-decoration-skip: none;
+}
+
 .btn-mobile-nav {
   border: none;
   background: none;
   cursor: pointer;
   display: none;
   /* grid-row: 1/2; */
-  align-self: end;
+  align-self: center;
+  /* justify-self: center; */
 }
 
 .icon-mobile-nav {
