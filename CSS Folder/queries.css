@@ -27,6 +27,12 @@ img {
   display: block;
 }
 
+/* Disable page scrolling when mobile nav is open (toggled via JS) */
+body.nav-open {
+  overflow: hidden;
+  touch-action: none;
+}
+
 /* Prevent fixed containers from overflowing on small screens */
 .calendar-container,
 .events-box {
@@ -384,6 +390,9 @@ img {
   }
 
   .main-creator {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     margin-top: 25rem;
     margin-bottom: 20rem;
   }
